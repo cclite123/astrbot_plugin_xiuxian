@@ -1,0 +1,190 @@
+{
+  "admin_qq": "你的管理员QQ号",
+  "official_bot_qq": "官方bot的QQ号",
+  "test_mode": false,
+  "deepseek": {
+    "api_key": "sk-你的DeepSeek-API密钥",
+    "base_url": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat",
+    "timeout": 8.0
+  },
+  "modules": {
+    "xiuxian": true,
+    "alchemy": true,
+    "market_spider": true,
+    "market_monitor": true
+  },
+  "target_group": "绑定坊市采集的群号",
+  "spider_settings": {
+    "enable_schedule": true,
+    "delay_seconds": 4
+  },
+  "network_market": {
+    "enabled": false,
+    "upload_url": "https://你的域名.example.com/api/prices/bulk",
+    "api_key": "你的上传密钥",
+    "timeout_sec": 8.0,
+    "min_interval_sec": 300,
+    "upload_after_full_scrape": true,
+    "upload_monitor_items": false,
+    "local_export_enabled": true,
+    "local_export_path": "data/xiao_xiuxian_market_prices.json",
+    "source": "astrbot_plugin_xiuxian"
+  },
+  "alchemy_target_items": [
+    "回元丹",
+    "生骨丹",
+    "化瘀丹",
+    "培元丹",
+    "固元丹",
+    "回春丹",
+    "养元丹",
+    "太元真丹",
+    "九阳真丹",
+    "归臧灵丹",
+    "归藏灵丹",
+    "天命血凝丹"
+  ],
+  "alchemy_prices": {
+    "生骨丹": 30,
+    "化瘀丹": 30,
+    "培元丹": 90,
+    "固元丹": 120,
+    "回春丹": 210,
+    "养元丹": 240,
+    "太元真丹": 270,
+    "九阳真丹": 300,
+    "归藏灵丹": 330,
+    "归臧灵丹": 330,
+    "天命血凝丹": 360,
+    "化劫丹": 260,
+    "太上玄门丹": 290,
+    "幻心玄丹": 240,
+    "鬼面炼心丹": 270,
+    "少阴清灵丹": 300,
+    "天命炼心丹": 330,
+    "斩我丹": 360,
+    "苦茶子": 390,
+    "渡厄丹": 80,
+    "养气丹": 150,
+    "九转丹": 180,
+    "摄魂鬼丸": 120,
+    "素心真丸": 180,
+    "静禅魔丸": 240,
+    "地仙玄丸": 270,
+    "消冰宝丸": 300,
+    "化煞魔丸": 150,
+    "灭神古丸": 210,
+    "无涯鬼丸": 330,
+    "太一仙丸": 360
+  },
+  "monitor_enabled": false,
+  "monitor_trigger_group": "监控探测指令的发送群号",
+  "monitor_notify_groups": [
+    "接收稀有物品通知的群号1",
+    "接收稀有物品通知的群号2"
+  ],
+  "monitor_items": [
+    "太虚乾元诀",
+    "真龙九变"
+  ],
+  "monitor_cmds": [
+    "坊市查看技能3"
+  ],
+  "group_reminder_enabled": {},
+  "blacklist_qq": []
+}
+{
+  "admin_qq": "1060359551",
+  "official_bot_qq": "3889001741",
+  "test_mode": false,
+  "deepseek": {
+    "api_key": "sk-c581906ef47249c89145cee07791cb7d",
+    "base_url": "https://api.deepseek.com/v1",
+    "model": "deepseek-v4-flash",
+    "timeout": 8.0
+  },
+  "modules": {
+    "xiuxian": true,
+    "alchemy": true,
+    "market_spider": true,
+    "market_monitor": true
+  },
+  "target_group": "942102660",
+  "spider_settings": {
+    "enable_schedule": true,
+    "delay_seconds": 4
+  },
+  "network_market": {
+    "enabled": false,
+    "upload_url": "http://81.71.44.7:8808/api/prices/bulk",
+    "api_key": "N2WDtj3SagxTVTBwj7",
+    "timeout_sec": 8.0,
+    "min_interval_sec": 300,
+    "upload_after_full_scrape": true,
+    "upload_monitor_items": false,
+    "local_export_enabled": true,
+    "local_export_path": "data/xiao_xiuxian_market_prices.json",
+    "source": "astrbot_plugin_xiuxian"
+  },
+  "alchemy_target_items": [
+    "回元丹",
+    "生骨丹",
+    "化瘀丹",
+    "培元丹",
+    "固元丹",
+    "回春丹",
+    "养元丹",
+    "太元真丹",
+    "九阳真丹",
+    "归臧灵丹",
+    "归藏灵丹",
+    "天命血凝丹"
+  ],
+  "alchemy_prices": {
+    "生骨丹": 30,
+    "化瘀丹": 30,
+    "培元丹": 90,
+    "固元丹": 120,
+    "回春丹": 210,
+    "养元丹": 240,
+    "太元真丹": 270,
+    "九阳真丹": 300,
+    "归藏灵丹": 330,
+    "归臧灵丹": 330,
+    "天命血凝丹": 360,
+    "化劫丹": 260,
+    "太上玄门丹": 290,
+    "幻心玄丹": 240,
+    "鬼面炼心丹": 270,
+    "少阴清灵丹": 300,
+    "天命炼心丹": 330,
+    "斩我丹": 360,
+    "苦茶子": 390,
+    "渡厄丹": 80,
+    "养气丹": 150,
+    "九转丹": 180,
+    "摄魂鬼丸": 120,
+    "素心真丸": 180,
+    "静禅魔丸": 240,
+    "地仙玄丸": 270,
+    "消冰宝丸": 300,
+    "化煞魔丸": 150,
+    "灭神古丸": 210,
+    "无涯鬼丸": 330,
+    "太一仙丸": 360
+  },
+  "monitor_enabled": false,
+  "monitor_trigger_group": "942102660",
+  "monitor_notify_groups": [
+    "942102660",
+    "709886837"
+  ],
+  "monitor_items": [
+    "太虚乾元诀",
+    "真龙九变"
+  ],
+  "monitor_cmds": [
+    "坊市查看技能3"
+  ]
+}

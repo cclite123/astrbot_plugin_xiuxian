@@ -1,0 +1,6 @@
+# AstrBot 插件依赖
+openai>=1.0.0
+
+# 以下为 AstrBot 框架自带，无需额外安装：
+# astrbot (框架本体)
+# aiocqhttp (OneBot 协议适配)
