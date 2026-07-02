@@ -2,4 +2,4 @@ name: astrbot_plugin_xiuxian
 desc: 修仙辅助 + 坊市监控大一统插件（悬赏/秘境/灵田/猜成语/炼金/上架/价格爬虫/稀有物品监控）
 version: 3.2.6
 author: 时光
-repo: ""
+repo: "https://github.com/cclite123/astrbot_plugin_xiuxian"
