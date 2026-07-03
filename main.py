@@ -856,7 +856,7 @@ class XiuxianAllInOnePlugin(Star):
         lines = []
         for index, bounty in enumerate(parsed_bounties, start=1):
             exp_str = self._format_exp(int(bounty["exp"]))
-            display_name = f"悬赏令{index}"
+            display_name = f"{index}"
             bounty["exp_str"] = exp_str
             bounty["display_name"] = display_name
             double_tag = " (已翻倍🚀)" if bounty["is_doubled"] else ""
@@ -1307,7 +1307,7 @@ class XiuxianAllInOnePlugin(Star):
         if self._is_test_dry_run(event):
             await self._send_quote_reply(
                 event,
-                f"🧪 测试模式反馈：已识别悬赏接取成功，目标QQ:{uid}，悬赏令{sel_tid}，耗时{dm}分钟。\n"
+                f"🧪 测试模式反馈：已识别悬赏接取成功，目标QQ:{uid}，{sel_tid}，耗时{dm}分钟。\n"
                 f"本次仅做解析反馈，不写入正式提醒任务，也不会到点 @。",
                 recall_delay=30,
                 stop_event=False,
